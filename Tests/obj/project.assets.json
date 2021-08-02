@@ -4232,11 +4232,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\antwan.maddox\\SeleniumCore\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\antwan.maddox\\source\\SeleniumCore\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\antwan.maddox\\SeleniumCore\\Tests\\Tests.csproj",
+      "projectPath": "C:\\Users\\antwan.maddox\\source\\SeleniumCore\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\antwan.maddox\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\antwan.maddox\\SeleniumCore\\Tests\\obj\\",
+      "outputPath": "C:\\Users\\antwan.maddox\\source\\SeleniumCore\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -4258,8 +4258,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\antwan.maddox\\SeleniumCore\\Framework\\Framework.csproj": {
-              "projectPath": "C:\\Users\\antwan.maddox\\SeleniumCore\\Framework\\Framework.csproj"
+            "C:\\Users\\antwan.maddox\\source\\SeleniumCore\\Framework\\Framework.csproj": {
+              "projectPath": "C:\\Users\\antwan.maddox\\source\\SeleniumCore\\Framework\\Framework.csproj"
             }
           }
         }
