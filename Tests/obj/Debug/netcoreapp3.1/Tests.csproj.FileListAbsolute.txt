@@ -1,0 +1,4 @@
+C:\Users\antwan.maddox\source\SeleniumCore\Tests\obj\Debug\netcoreapp3.1\Tests.csprojAssemblyReference.cache
+C:\Users\antwan.maddox\source\SeleniumCore\Tests\obj\Debug\netcoreapp3.1\Tests.AssemblyInfoInputs.cache
+C:\Users\antwan.maddox\source\SeleniumCore\Tests\obj\Debug\netcoreapp3.1\Tests.AssemblyInfo.cs
+C:\Users\antwan.maddox\source\SeleniumCore\Tests\obj\Debug\netcoreapp3.1\Tests.csproj.CoreCompileInputs.cache

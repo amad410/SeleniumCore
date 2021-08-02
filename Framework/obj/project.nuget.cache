@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "4n/KJeP3pK+BL0twJHqiEHB8MItC/hoIUPwrbMeOs3IzaPl3mXWLNdkYqD73rklkdFEAQsFQfMlTUqr7eMz0dQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\antwan.maddox\\source\\SeleniumCore\\Framework\\Framework.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\antwan.maddox\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\antwan.maddox\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\antwan.maddox\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\antwan.maddox\\.nuget\\packages\\nlog\\4.7.10\\nlog.4.7.10.nupkg.sha512",
+    "C:\\Users\\antwan.maddox\\.nuget\\packages\\nlog.schema\\4.7.10\\nlog.schema.4.7.10.nupkg.sha512",
+    "C:\\Users\\antwan.maddox\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
+    "C:\\Users\\antwan.maddox\\.nuget\\packages\\selenium.support\\4.0.0-alpha03\\selenium.support.4.0.0-alpha03.nupkg.sha512",
+    "C:\\Users\\antwan.maddox\\.nuget\\packages\\selenium.webdriver\\4.0.0-alpha03\\selenium.webdriver.4.0.0-alpha03.nupkg.sha512",
+    "C:\\Users\\antwan.maddox\\.nuget\\packages\\selenium.webdriver.chromedriver\\92.0.4515.4300\\selenium.webdriver.chromedriver.92.0.4515.4300.nupkg.sha512",
+    "C:\\Users\\antwan.maddox\\.nuget\\packages\\selenium.webdriver.geckodriver\\0.29.1\\selenium.webdriver.geckodriver.0.29.1.nupkg.sha512",
+    "C:\\Users\\antwan.maddox\\.nuget\\packages\\selenium.webdriver.iedriver\\3.150.1.2\\selenium.webdriver.iedriver.3.150.1.2.nupkg.sha512",
+    "C:\\Users\\antwan.maddox\\.nuget\\packages\\selenium.webdriver.msedgedriver\\91.0.864.37\\selenium.webdriver.msedgedriver.91.0.864.37.nupkg.sha512"
+  ],
+  "logs": []
+}

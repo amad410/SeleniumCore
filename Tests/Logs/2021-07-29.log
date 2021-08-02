@@ -1,0 +1,48 @@
+2021-07-29 08:46:37.0331 INFO Starting test SearchTermInGoogle2 using browser Chrome
+2021-07-29 08:48:21.2260 INFO Starting test SearchTermInGoogle2 using browser Chrome
+2021-07-29 08:48:57.0981 ERROR Unable to find visible element matching By.Name: q within the duration 00:00:08
+   at Framework.Helpers.WaitUtils.IsDropDownTextAvailable(IWebDriver driver, By locator, String textOption, TimeSpan timeout)
+   at Framework.Pages.BasePage.FindVisibleElement(By locator, TimeSpan timeout) in C:\Users\antwan.maddox\source\repos\Framework\Pages\BasePage.cs:line 28
+2021-07-29 08:48:57.4645 INFO Ending Test SearchTermInGoogle2
+2021-07-29 08:48:57.4645 INFO Tearing down for test SearchTermInGoogle2
+2021-07-29 08:48:58.3222 INFO Killing executable for browser Chrome
+2021-07-29 08:49:46.2915 INFO Starting test SearchTermInGoogle2 using browser Chrome
+2021-07-29 08:49:57.6041 ERROR Unable to find visible element matching By.Name: q within the duration 00:00:08
+   at Framework.Helpers.WaitUtils.IsDropDownTextAvailable(IWebDriver driver, By locator, String textOption, TimeSpan timeout)
+   at Framework.Pages.BasePage.FindVisibleElement(By locator, TimeSpan timeout) in C:\Users\antwan.maddox\source\repos\Framework\Pages\BasePage.cs:line 28
+2021-07-29 08:49:57.8757 INFO Ending Test SearchTermInGoogle2
+2021-07-29 08:49:57.8757 INFO Tearing down for test SearchTermInGoogle2
+2021-07-29 08:49:58.3912 INFO Killing executable for browser Chrome
+2021-07-29 08:51:40.1840 INFO Starting test SearchTermInGoogle2 using browser Chrome
+2021-07-29 08:51:48.2248 ERROR Unable to find visible element matching By.Name: q within the duration 00:00:08
+   at Framework.Helpers.WaitUtils.IsDropDownTextAvailable(IWebDriver driver, By locator, String textOption, TimeSpan timeout)
+   at Framework.Pages.BasePage.FindVisibleElement(By locator, TimeSpan timeout) in C:\Users\antwan.maddox\source\repos\Framework\Pages\BasePage.cs:line 27
+2021-07-29 08:51:48.5300 INFO Ending Test SearchTermInGoogle2
+2021-07-29 08:51:48.5313 INFO Tearing down for test SearchTermInGoogle2
+2021-07-29 08:51:49.0692 INFO Killing executable for browser Chrome
+2021-07-29 08:52:41.7553 INFO Starting test SearchTermInGoogle2 using browser Chrome
+2021-07-29 08:54:21.5991 INFO Starting test SearchTermInGoogle2 using browser Chrome
+2021-07-29 08:54:33.2714 ERROR Unable to find visible element matching By.Name: q within the duration 00:00:08
+   at Framework.Helpers.WaitUtils.IsDropDownTextAvailable(IWebDriver driver, By locator, String textOption, TimeSpan timeout)
+   at Framework.Pages.BasePage.FindVisibleElement(By locator, TimeSpan timeout) in C:\Users\antwan.maddox\source\repos\Framework\Pages\BasePage.cs:line 27
+2021-07-29 08:54:33.6313 INFO Ending Test SearchTermInGoogle2
+2021-07-29 08:54:33.6313 INFO Tearing down for test SearchTermInGoogle2
+2021-07-29 08:54:34.2607 INFO Killing executable for browser Chrome
+2021-07-29 08:55:30.5127 INFO Starting test SearchTermInGoogle2 using browser Chrome
+2021-07-29 08:56:09.5458 ERROR Unable to find visible element matching By.Name: q within the duration 00:00:08
+   at Framework.Helpers.WaitUtils.WaitForElementDisplayed(IWebDriver driver, By locator, TimeSpan timeout) in C:\Users\antwan.maddox\source\repos\Framework\Helpers\WaitUtils.cs:line 146
+   at Framework.Pages.BasePage.FindVisibleElement(By locator, TimeSpan timeout) in C:\Users\antwan.maddox\source\repos\Framework\Pages\BasePage.cs:line 28
+2021-07-29 08:56:09.7959 INFO Ending Test SearchTermInGoogle2
+2021-07-29 08:56:09.7969 INFO Tearing down for test SearchTermInGoogle2
+2021-07-29 08:56:10.3162 INFO Killing executable for browser Chrome
+2021-07-29 08:59:27.7203 INFO Starting test SearchTermInGoogle2 using browser Chrome
+2021-07-29 09:01:11.1208 INFO Starting test SearchTermInGoogle2 using browser Chrome
+2021-07-29 09:02:05.7820 ERROR Unable to find visible element matching By.Name: q within the duration 00:00:08
+   at Framework.Helpers.WaitUtils.WaitForElementDisplayed(IWebDriver driver, By locator, TimeSpan timeout) in C:\Users\antwan.maddox\source\repos\Framework\Helpers\WaitUtils.cs:line 146
+   at Framework.Pages.BasePage.FindVisibleElement(By locator, TimeSpan timeout) in C:\Users\antwan.maddox\source\repos\Framework\Pages\BasePage.cs:line 28
+2021-07-29 09:02:06.1770 INFO Ending Test SearchTermInGoogle2
+2021-07-29 09:02:06.1770 INFO Tearing down for test SearchTermInGoogle2
+2021-07-29 09:02:06.8031 INFO Killing executable for browser Chrome
+2021-07-29 09:02:51.4643 INFO Starting test SearchTermInGoogle2 using browser Chrome
+2021-07-29 09:09:57.2027 INFO Starting test SearchTermInGoogle2 using browser Chrome
+2021-07-29 09:11:55.4462 INFO Starting test SearchTermInGoogle2 using browser Chrome
