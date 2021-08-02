@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\antwan.maddox\\source\\SeleniumCore\\Framework\\Framework.csproj": {}
+    "C:\\Users\\antwan.maddox\\SeleniumCore\\Framework\\Framework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\antwan.maddox\\source\\SeleniumCore\\Framework\\Framework.csproj": {
+    "C:\\Users\\antwan.maddox\\SeleniumCore\\Framework\\Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antwan.maddox\\source\\SeleniumCore\\Framework\\Framework.csproj",
+        "projectUniqueName": "C:\\Users\\antwan.maddox\\SeleniumCore\\Framework\\Framework.csproj",
         "projectName": "Framework",
-        "projectPath": "C:\\Users\\antwan.maddox\\source\\SeleniumCore\\Framework\\Framework.csproj",
+        "projectPath": "C:\\Users\\antwan.maddox\\SeleniumCore\\Framework\\Framework.csproj",
         "packagesPath": "C:\\Users\\antwan.maddox\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antwan.maddox\\source\\SeleniumCore\\Framework\\obj\\",
+        "outputPath": "C:\\Users\\antwan.maddox\\SeleniumCore\\Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",

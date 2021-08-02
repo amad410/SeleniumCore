@@ -1,4 +1,4 @@
-2021-08-02 14:44:38.6168 INFO Starting test SearchTermInGoogle using browser Chrome
-2021-08-02 14:44:43.4159 INFO Ending Test SearchTermInGoogle
-2021-08-02 14:44:43.4220 INFO Tearing down for test SearchTermInGoogle
-2021-08-02 14:44:43.9542 INFO Killing executable for browser Chrome
+2021-08-02 14:50:08.7113 INFO Starting test SearchTermInGoogle2 using browser Chrome
+2021-08-02 14:50:14.3518 INFO Ending Test SearchTermInGoogle2
+2021-08-02 14:50:14.3518 INFO Tearing down for test SearchTermInGoogle2
+2021-08-02 14:50:14.9234 INFO Killing executable for browser Chrome
