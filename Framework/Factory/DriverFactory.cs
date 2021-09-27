@@ -7,6 +7,7 @@ using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Remote;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using System.Threading;
 
@@ -45,8 +46,10 @@ namespace Framework.Factory
 
         public static ThreadLocal<IWebDriver> Edge = new ThreadLocal<IWebDriver>(() =>
         {
-            ///TODO: use relative path to project
-            var service = EdgeDriverService.CreateDefaultService(@"C:\Users\antwan.maddox\source\repos\Framework\ExternalDrivers", "msedgedriver.exe");
+
+            string startupPath = System.IO.Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).
+            Parent.Parent.FullName + @"\..\Framework\ExternalDrivers\";
+             var service = EdgeDriverService.CreateDefaultService(startupPath, "msedgedriver.exe");
             service.UseVerboseLogging = true;
             service.UseSpecCompliantProtocol = true;
             service.Start();

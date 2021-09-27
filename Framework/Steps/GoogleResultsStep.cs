@@ -9,19 +9,27 @@ namespace Framework.Steps
 {
     public class GoogleResultsStep
     {
-        public GoogleHomePage _homePage;
+        public Page _page;
+        //public GoogleHomePage _homePage;
         protected DriverFactory _driverFactoryInstance;
+
+        public GoogleResultsStep(Page page)
+        {
+            _page = page;
+
+        }
 
         public GoogleResultsStep()
         {
-            _driverFactoryInstance = DriverFactory.getInstance();
-            _homePage = new GoogleHomePage(_driverFactoryInstance.getDriver());
+            //_driverFactoryInstance = DriverFactory.getInstance();
+            //_homePage = new GoogleHomePage(_driverFactoryInstance.getDriver());
 
         }
 
         public void PerformSearch(String term)
         {
-            _homePage.PerformSearch(term);
+            _page.GoogleHomePage.PerformSearch(term);
+            //_homePage.PerformSearch(term);
         }
     }
 }

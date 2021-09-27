@@ -15,3 +15,12 @@ C:\Users\antwan.maddox\SeleniumCore\Framework\obj\QA\netcoreapp3.1\Framework.Ass
 C:\Users\antwan.maddox\SeleniumCore\Framework\obj\QA\netcoreapp3.1\Framework.csproj.CoreCompileInputs.cache
 C:\Users\antwan.maddox\SeleniumCore\Framework\obj\QA\netcoreapp3.1\Framework.dll
 C:\Users\antwan.maddox\SeleniumCore\Framework\obj\QA\netcoreapp3.1\Framework.pdb
+C:\Users\antwan.maddox\source\repos\SeleniumCore\Framework\bin\QA\netcoreapp3.1\Framework.deps.json
+C:\Users\antwan.maddox\source\repos\SeleniumCore\Framework\bin\QA\netcoreapp3.1\Framework.dll
+C:\Users\antwan.maddox\source\repos\SeleniumCore\Framework\bin\QA\netcoreapp3.1\Framework.pdb
+C:\Users\antwan.maddox\source\repos\SeleniumCore\Framework\obj\QA\netcoreapp3.1\Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antwan.maddox\source\repos\SeleniumCore\Framework\obj\QA\netcoreapp3.1\Framework.AssemblyInfoInputs.cache
+C:\Users\antwan.maddox\source\repos\SeleniumCore\Framework\obj\QA\netcoreapp3.1\Framework.AssemblyInfo.cs
+C:\Users\antwan.maddox\source\repos\SeleniumCore\Framework\obj\QA\netcoreapp3.1\Framework.csproj.CoreCompileInputs.cache
+C:\Users\antwan.maddox\source\repos\SeleniumCore\Framework\obj\QA\netcoreapp3.1\Framework.dll
+C:\Users\antwan.maddox\source\repos\SeleniumCore\Framework\obj\QA\netcoreapp3.1\Framework.pdb

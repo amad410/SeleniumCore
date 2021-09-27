@@ -1,4 +1,5 @@
 ﻿using Framework.Enums;
+using Framework.Handlers;
 using Framework.Helpers;
 using OpenQA.Selenium;
 using System;
@@ -14,6 +15,7 @@ namespace Framework.Pages.HomePage
         By searchBx = By.Name("q");
         public GoogleHomePage PerformSearch(String text)
         {
+            
             FindVisibleElement(searchBx,TimeSpan.FromSeconds(8)).SendKeys(text);
             return this;
         }

@@ -1,0 +1,10 @@
+C:\Users\antwan.maddox\source\repos\SeleniumCore\Framework\bin\PROD\netcoreapp3.1\Framework.deps.json
+C:\Users\antwan.maddox\source\repos\SeleniumCore\Framework\bin\PROD\netcoreapp3.1\Framework.dll
+C:\Users\antwan.maddox\source\repos\SeleniumCore\Framework\bin\PROD\netcoreapp3.1\Framework.pdb
+C:\Users\antwan.maddox\source\repos\SeleniumCore\Framework\obj\PROD\netcoreapp3.1\Framework.csprojAssemblyReference.cache
+C:\Users\antwan.maddox\source\repos\SeleniumCore\Framework\obj\PROD\netcoreapp3.1\Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antwan.maddox\source\repos\SeleniumCore\Framework\obj\PROD\netcoreapp3.1\Framework.AssemblyInfoInputs.cache
+C:\Users\antwan.maddox\source\repos\SeleniumCore\Framework\obj\PROD\netcoreapp3.1\Framework.AssemblyInfo.cs
+C:\Users\antwan.maddox\source\repos\SeleniumCore\Framework\obj\PROD\netcoreapp3.1\Framework.csproj.CoreCompileInputs.cache
+C:\Users\antwan.maddox\source\repos\SeleniumCore\Framework\obj\PROD\netcoreapp3.1\Framework.dll
+C:\Users\antwan.maddox\source\repos\SeleniumCore\Framework\obj\PROD\netcoreapp3.1\Framework.pdb

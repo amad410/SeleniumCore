@@ -3,14 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{6B32E19B-798B-4731-899E-33267598D1C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{6B32E19B-798B-4731-899E-33267598D1C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework", "Framework\Framework.csproj", "{DDDAFC7F-6FC2-408F-B2C1-A04D98719C31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework", "Framework\Framework.csproj", "{DDDAFC7F-6FC2-408F-B2C1-A04D98719C31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B992786A-EF4A-4286-9939-BBDE0809A027}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		DEV|Any CPU = DEV|Any CPU
+		PROD|Any CPU = PROD|Any CPU
 		QA|Any CPU = QA|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
@@ -19,6 +25,8 @@ Global
 		{6B32E19B-798B-4731-899E-33267598D1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B32E19B-798B-4731-899E-33267598D1C7}.DEV|Any CPU.ActiveCfg = DEV|Any CPU
 		{6B32E19B-798B-4731-899E-33267598D1C7}.DEV|Any CPU.Build.0 = DEV|Any CPU
+		{6B32E19B-798B-4731-899E-33267598D1C7}.PROD|Any CPU.ActiveCfg = PROD|Any CPU
+		{6B32E19B-798B-4731-899E-33267598D1C7}.PROD|Any CPU.Build.0 = PROD|Any CPU
 		{6B32E19B-798B-4731-899E-33267598D1C7}.QA|Any CPU.ActiveCfg = QA|Any CPU
 		{6B32E19B-798B-4731-899E-33267598D1C7}.QA|Any CPU.Build.0 = QA|Any CPU
 		{6B32E19B-798B-4731-899E-33267598D1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +35,8 @@ Global
 		{DDDAFC7F-6FC2-408F-B2C1-A04D98719C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDDAFC7F-6FC2-408F-B2C1-A04D98719C31}.DEV|Any CPU.ActiveCfg = DEV|Any CPU
 		{DDDAFC7F-6FC2-408F-B2C1-A04D98719C31}.DEV|Any CPU.Build.0 = DEV|Any CPU
+		{DDDAFC7F-6FC2-408F-B2C1-A04D98719C31}.PROD|Any CPU.ActiveCfg = PROD|Any CPU
+		{DDDAFC7F-6FC2-408F-B2C1-A04D98719C31}.PROD|Any CPU.Build.0 = PROD|Any CPU
 		{DDDAFC7F-6FC2-408F-B2C1-A04D98719C31}.QA|Any CPU.ActiveCfg = QA|Any CPU
 		{DDDAFC7F-6FC2-408F-B2C1-A04D98719C31}.QA|Any CPU.Build.0 = QA|Any CPU
 		{DDDAFC7F-6FC2-408F-B2C1-A04D98719C31}.Release|Any CPU.ActiveCfg = Release|Any CPU

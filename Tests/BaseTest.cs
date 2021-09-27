@@ -1,12 +1,17 @@
-﻿using Framework.Enums;
+﻿using EnvDTE;
+using EnvDTE80;
+using Framework.Enums;
 using Framework.Factory;
 using Framework.Handlers;
 using Framework.Pages;
+using Framework.Services;
+using Microsoft.Extensions.Configuration;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Configuration;
+using System.Reflection;
+using ConfigurationManager = System.Configuration.ConfigurationManager;
 
 namespace Tests
 {
@@ -18,15 +23,19 @@ namespace Tests
         private IWebDriver _driver;
         protected DriverFactory _driverFactoryInstance;
         protected Page _pages;
+        public TestLogger _testLoggerInstance;
 
         public BaseTest(BrowserType type) { BrowserTypeContext = type; }
 
         public BaseTest() { }
-       
 
+       
         [SetUp]
         public void Setup()
         {
+
+           // var url = ConfigurationService.Instance.GetUrlSettings();
+            TestLogger.GetInstance().SetBrowserType(BrowserTypeContext);
             TestLogger.GetInstance().Info(String.Format("Starting test {0} using browser {1}", CurrentTestContext.Test.MethodName, 
                 BrowserTypeContext.ToString()));
             DriverFactoryInstance = DriverFactory.getInstance();
@@ -42,9 +51,11 @@ namespace Tests
         [TearDown]
         public void TearDown()
         {
+
             TestLogger.GetInstance().Info(String.Format("Ending Test {0}", CurrentTestContext.Test.MethodName));
             TestLogger.GetInstance().Info(String.Format("Tearing down for test {0}", CurrentTestContext.Test.MethodName));
             DriverFactoryInstance.removeDriver();
+            TestLogger.GetInstance().RemoveLogger();
         }
 
         [OneTimeSetUp]
@@ -53,9 +64,11 @@ namespace Tests
             //Purge logs and reports here using Loghandler and reporthandler
         }
 
+
         [OneTimeTearDown]
         public void AfterAllTests()
         {
+
             TestLogger.GetInstance().Info(String.Format("Killing executable for browser {0}", BrowserTypeContext.ToString()));
             //kill all browser executables if any
             System.Diagnostics.ProcessStartInfo p;
@@ -103,6 +116,17 @@ namespace Tests
                 _driverFactoryInstance = value;
             }
         }
+        public TestLogger TestLoggerInstance
+        {
+            get
+            {
+                return _testLoggerInstance;
+            }
+            set
+            {
+                _testLoggerInstance = value;
+            }
+        }
 
         protected TestContext CurrentTestContext
         {
@@ -133,7 +157,6 @@ namespace Tests
         
         }
 
-
-
     }
+
 }

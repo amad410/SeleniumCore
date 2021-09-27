@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\antwan.maddox\\source\\SeleniumCore\\Framework\\Framework.csproj": {}
+    "C:\\Users\\antwan.maddox\\source\\repos\\SeleniumCore\\Framework\\Framework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\antwan.maddox\\source\\SeleniumCore\\Framework\\Framework.csproj": {
+    "C:\\Users\\antwan.maddox\\source\\repos\\SeleniumCore\\Framework\\Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antwan.maddox\\source\\SeleniumCore\\Framework\\Framework.csproj",
+        "projectUniqueName": "C:\\Users\\antwan.maddox\\source\\repos\\SeleniumCore\\Framework\\Framework.csproj",
         "projectName": "Framework",
-        "projectPath": "C:\\Users\\antwan.maddox\\source\\SeleniumCore\\Framework\\Framework.csproj",
+        "projectPath": "C:\\Users\\antwan.maddox\\source\\repos\\SeleniumCore\\Framework\\Framework.csproj",
         "packagesPath": "C:\\Users\\antwan.maddox\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antwan.maddox\\source\\SeleniumCore\\Framework\\obj\\",
+        "outputPath": "C:\\Users\\antwan.maddox\\source\\repos\\SeleniumCore\\Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -45,6 +45,22 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "NLog": {
               "target": "Package",
               "version": "[4.7.10, )"
@@ -56,6 +72,14 @@
             "NUnit": {
               "target": "Package",
               "version": "[3.13.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.12.0, )"
             },
             "Selenium.Support": {
               "target": "Package",
@@ -80,6 +104,10 @@
             "Selenium.WebDriver.MSEdgeDriver": {
               "target": "Package",
               "version": "[91.0.864.37, )"
+            },
+            "System.Runtime.Caching": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -97,7 +125,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

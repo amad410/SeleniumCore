@@ -1,4 +1,5 @@
-﻿using Framework.Pages.HomePage;
+﻿using Framework.Handlers;
+using Framework.Pages.HomePage;
 using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
@@ -46,5 +47,6 @@ namespace Framework.Pages
                 _driver = value;
             }
         }
+      
     }
 }

@@ -1,0 +1,4 @@
+2021-09-27 08:34:18.4957 INFO Starting test SearchTermInGoogle using browser InternetExplorer
+2021-09-27 08:34:35.8918 INFO Ending Test SearchTermInGoogle
+2021-09-27 08:34:35.8918 INFO Tearing down for test SearchTermInGoogle
+2021-09-27 08:34:41.4004 INFO Killing executable for browser InternetExplorer

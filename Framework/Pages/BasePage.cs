@@ -21,6 +21,7 @@ namespace Framework.Pages
         public IWebDriver _driver;
         public Navigation _navigation;
 
+
         public BasePage(IWebDriver driver) {
             Driver = driver;
             _navigation = new Navigation();
@@ -417,5 +418,6 @@ namespace Framework.Pages
 
             }
         }
+      
     }
 }

@@ -1,0 +1,8 @@
+2021-09-24 15:14:07.5240 INFO Starting test SearchTermInGoogle using browser FireFox
+2021-09-24 15:14:07.5240 INFO Starting test SearchTermInGoogle using browser Chrome
+2021-09-24 15:14:24.1055 INFO Ending Test SearchTermInGoogle
+2021-09-24 15:14:24.1097 INFO Tearing down for test SearchTermInGoogle
+2021-09-24 15:14:48.0273 INFO Ending Test SearchTermInGoogle
+2021-09-24 15:14:48.0273 INFO Tearing down for test SearchTermInGoogle
+2021-09-24 15:14:52.7076 INFO Killing executable for browser Chrome
+2021-09-24 15:14:59.3726 INFO Killing executable for browser FireFox

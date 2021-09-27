@@ -1,0 +1,12 @@
+2021-09-27 08:36:16.8506 INFO Starting test SearchTermInGoogle using browser Edge
+2021-09-27 08:39:28.5882 INFO Starting test SearchTermInGoogle using browser Edge
+2021-09-27 08:44:11.9229 INFO Starting test SearchTermInGoogle using browser Edge
+2021-09-27 08:51:16.4721 INFO Starting test SearchTermInGoogle using browser Edge
+2021-09-27 08:53:13.4884 INFO Starting test SearchTermInGoogle using browser Edge
+2021-09-27 08:53:25.3021 INFO Ending Test SearchTermInGoogle
+2021-09-27 08:53:25.3021 INFO Tearing down for test SearchTermInGoogle
+2021-09-27 08:53:34.2130 INFO Killing executable for browser Edge
+2021-09-27 08:56:10.0145 INFO Starting test SearchTermInGoogle using browser Edge
+2021-09-27 08:56:48.4106 INFO Ending Test SearchTermInGoogle
+2021-09-27 08:56:48.4214 INFO Tearing down for test SearchTermInGoogle
+2021-09-27 08:56:50.9542 INFO Killing executable for browser Edge
