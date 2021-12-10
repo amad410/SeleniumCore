@@ -1,4 +1,5 @@
-﻿using Framework.Enums;
+﻿using Framework.Assemblies;
+using Framework.Enums;
 using Framework.Handlers;
 using Framework.Helpers;
 using OpenQA.Selenium;

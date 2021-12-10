@@ -10,6 +10,7 @@ namespace Framework.Enums
         Chrome = 1,
         InternetExplorer = 2,
         FireFox = 3,
-        Edge = 4
+        Edge = 4,
+        Cloud = 5
     }
 }

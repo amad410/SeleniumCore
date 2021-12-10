@@ -1,0 +1,10 @@
+2021-10-25 10:46:05.2131 INFO Starting test SampleUsersClient using browser None
+2021-10-25 12:13:37.5115 INFO Test Session started
+2021-10-25 12:14:49.8674 INFO Test session tearing down
+2021-10-25 12:14:52.3081 INFO Ending Test SampleCreateClient
+2021-10-25 12:14:52.3081 INFO Tearing down for test SampleCreateClient
+2021-10-25 12:14:52.3081 INFO Wrapping up test sessions
+2021-10-25 12:14:52.3081 INFO Test sessions completely ended.
+2021-10-25 12:20:13.6783 INFO Test Session started
+2021-10-25 12:22:24.0747 INFO Test Session started
+2021-10-25 17:09:31.7576 INFO Test Session started

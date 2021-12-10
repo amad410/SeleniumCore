@@ -1,4 +1,4 @@
-﻿using Framework.Factory;
+﻿using Framework.Assemblies;
 using Framework.Pages;
 using Framework.Pages.HomePage;
 using System;

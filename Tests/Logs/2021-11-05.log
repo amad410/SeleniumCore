@@ -1,0 +1,12 @@
+2021-11-05 15:02:48.1641 INFO Test Session started
+2021-11-05 15:04:14.6827 INFO Test session tearing down
+2021-11-05 15:04:16.5079 INFO Ending Test SampleCreateClient
+2021-11-05 15:04:16.5079 INFO Tearing down for test SampleCreateClient
+2021-11-05 15:04:16.5079 INFO Wrapping up test sessions
+2021-11-05 15:04:16.5079 INFO Test sessions completely ended.
+2021-11-05 15:27:14.0959 INFO Test Session started
+2021-11-05 15:29:00.7747 INFO Test session tearing down
+2021-11-05 15:29:00.7747 INFO Ending Test SampleCreateUser
+2021-11-05 15:29:00.7747 INFO Tearing down for test SampleCreateUser
+2021-11-05 15:29:00.7918 INFO Wrapping up test sessions
+2021-11-05 15:29:00.7918 INFO Test sessions completely ended.

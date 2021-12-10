@@ -6,20 +6,32 @@
     <Configurations>Debug;Release;DEV;QA;PROD</Configurations>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="allureConfig.json" />
     <None Remove="App.config" />
     <None Remove="App.Debug.config" />
     <None Remove="App.DEV.config" />
     <None Remove="App.QA.config" />
     <None Remove="App.Release.config" />
     <None Remove="appsettings.json" />
+    <None Remove="categories.json" />
     <None Remove="NLog.config" />
+    <None Remove="TestData\SampleData.xlsx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="allureConfig.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="appsettings.json">
       <TransformOnBuild>true</TransformOnBuild>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="categories.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\SampleData.xlsx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
@@ -39,6 +51,7 @@
     <PackageReference Include="NLog" Version="4.7.10" />
     <PackageReference Include="NLog.Schema" Version="4.7.10" />
     <PackageReference Include="nunit" Version="3.13.2" />
+    <PackageReference Include="NUnit.Allure" Version="1.0.14" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.6.1" />
     <PackageReference Include="Selenium.Support" Version="4.0.0-alpha03" />
@@ -81,5 +94,10 @@
       <DependentUpon>appsettings.json</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Allure-results\" />
+    <Folder Include="Allure-report\" />
+    <Folder Include="screenshots\" />
   </ItemGroup>
 </Project>
